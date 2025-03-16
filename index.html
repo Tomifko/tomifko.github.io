@@ -12,8 +12,20 @@
 </head>
 <body>
     <h1>Spotify Top Tracks</h1>
+	
+	<!-- Search artist input -->
+	<label>Artist name: </label>
     <input type="text" id="artist-name" placeholder="Enter artist name">
-    <button onclick="searchArtist()">Search</button>
+    <button onclick="searchArtist()">Search</button></br>
+	
+	<!-- Client ID  -->
+	<label>Client ID: </label>
+    <input type="text" id="client-id" placeholder="Enter Client ID"></br>
+	<!-- Client Secret  -->
+	<label>Client Secret: </label>
+    <input type="text" id="client-secret" placeholder="Enter Client Secret"></br>
+	
+	
     <div id="tracks"></div>
 
     <script src="script.js"></script>
