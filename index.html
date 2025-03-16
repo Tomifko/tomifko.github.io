@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	  <meta charset="UTF-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <title>Top Tracks</title>
-	</head>
-	<body>
-		<h1>Most Listened Songs</h1>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Top Tracks</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .track { margin: 10px; padding: 10px; border: 1px solid #ddd; display: inline-block; }
+        img { max-width: 150px; }
+    </style>
+</head>
+<body>
+    <h1>Spotify Top Tracks</h1>
+    <input type="text" id="artist-name" placeholder="Enter artist name">
+    <button onclick="searchArtist()">Search</button>
+    <div id="tracks"></div>
+
+    <script src="script.js"></script>
+</body>
 </html>
